@@ -1,4 +1,4 @@
-Orientaciones para el laboratorio de Modbus {#orientaciones-para-el-laboratorio-de-modbus .western}
+Orientaciones para el laboratorio de Modbus 
 ===========================================
 
 El mapeo de memoria del PLC Master-k120s se puede encontrar en la página
@@ -7,7 +7,7 @@ El mapeo de memoria del PLC Master-k120s se puede encontrar en la página
 y para el analizador de redes en la página 7 del documento
 [WM14BXCPv2r0ENG0804.pdf](http://univirt.em.reduc.edu.cu/mod/resource/view.php?id=691).
 
-Tareas: {#tareas .western}
+Tareas: 
 -------
 
 Se pide una variante por estudiante que debe verse en el documento
@@ -76,58 +76,13 @@ Leer la energía del analizador
 ![](Orientaciones_para_el_laboratorio_html_88c38101278ccd41.gif)
 ![](Orientaciones_para_el_laboratorio_html_c6cd4e2f4dd89535.gif)\
 
-\
 
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
 
 El software ModbusLab se presenta como puede verse en la figura 1.
 
-[ ]{#Marco7 dir="ltr"
-style="float: left; width: 14.11cm; height: 10.56cm; border: none; padding: 0cm; background: #ffffff"}
-
-![](Orientaciones_para_el_laboratorio_html_a3c36e142383942f.png){width="100%"}\
+![](Orientaciones_para_el_laboratorio_html_a3c36e142383942f.png)\
 *Figura 1: Ventana principal de Modbuslab.*
 
-\
-\
 
 En la figura 2 se muestra el área para la configuración del puerto
 serie. En esto es suficiente con dejar los valores predeterminados
