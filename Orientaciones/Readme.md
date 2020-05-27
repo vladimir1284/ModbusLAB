@@ -88,10 +88,7 @@ En la figura 2 se muestra el área para la configuración del puerto
 serie. En esto es suficiente con dejar los valores predeterminados
 puesto que así han sido configurados todos los nodos de la red.
 
-[ ]{#Marco1 dir="ltr"
-style="float: left; width: 5.54cm; height: 3.82cm; border: none; padding: 0cm; background: #ffffff"}
-
-![](Orientaciones_para_el_laboratorio_html_c62b4826ed44c77b.png){width="100%"}\
+![](Orientaciones_para_el_laboratorio_html_c62b4826ed44c77b.png)\
 *Figura 2: Configurador del puerto serie.*
 
 \
@@ -103,9 +100,6 @@ activos e inactivos. Es importante notar que todas la entradas numéricas
 son de valores hexadecimales, el valor decimal será siempre accesible en
 un tip como puede verse en la figura 5.
 
-[ ]{#Marco2 dir="ltr"
-style="float: left; width: 16.18cm; height: 3.11cm; border: none; padding: 0cm; background: #ffffff"}
-
 ![](Orientaciones_para_el_laboratorio_html_ec145c343e62aaf5.png){width="100%"}\
 ![](Orientaciones_para_el_laboratorio_html_8f734337a1fa50e9.gif)
 ![](Orientaciones_para_el_laboratorio_html_c98016e6399cd823.gif) *Figura
@@ -115,15 +109,11 @@ style="float: left; width: 16.18cm; height: 3.11cm; border: none; padding: 0cm; 
 ![](Orientaciones_para_el_laboratorio_html_39c9dbc14414711a.gif)
 ![](Orientaciones_para_el_laboratorio_html_de9d50cb7cc3a811.gif)
 ![](Orientaciones_para_el_laboratorio_html_63c2ae7e09b05987.gif) [
-]{#Marco3 dir="ltr"
-style="float: left; width: 6.07cm; height: 5.09cm; border: none; padding: 0cm; background: #ffffff"}
+]
 
 ![](Orientaciones_para_el_laboratorio_html_80eb937eeb844580.png){width="100%"}\
 *Figura 4: Selector de la función modbus.*
-
 \
-[ ]{#Marco4 dir="ltr"
-style="float: left; width: 5.04cm; height: 2.87cm; border: none; padding: 0cm; background: #ffffff"}
 
 ![](Orientaciones_para_el_laboratorio_html_df9e71cd759a2202.png){width="100%"}\
 *Figura 5: Entrada numérica.*
@@ -132,9 +122,6 @@ El monitor del analizador de redes nos permite conocer todo el tiempo
 los valores medidos por el equipo como se muestra en la figura 6. La
 escala de los instrumentos de aguja se puede modificar a través de una
 entrada numérica como indica la figura 6.
-
-[ ]{#Marco6 dir="ltr"
-style="float: left; width: 14.37cm; height: 3.77cm; border: none; padding: 0cm; background: #ffffff"}
 
 ![](Orientaciones_para_el_laboratorio_html_85c7876e0ada5899.png){width="100%"}\
 ![](Orientaciones_para_el_laboratorio_html_94003d29ac9cc80f.gif)
@@ -157,17 +144,11 @@ color para la visualización de los leds como se muestra en la figura 8.
 
 Una vez terminado el laboratorio el software permite generar un informe
 con el menú que se muestra en la figura 7.
-
-[ ]{#Marco8 dir="ltr"
-style="float: left; width: 5.36cm; height: 3.47cm; border: none; padding: 0cm; background: #ffffff"}
-
+\
 ![](Orientaciones_para_el_laboratorio_html_854912dafacce3ba.png){width="100%"}\
 *Figura 7: Menú para generar informe.*
 
 \
-
-[ ]{#Marco5 dir="ltr"
-style="float: left; width: 8.18cm; height: 6.98cm; border: none; padding: 0cm; background: #ffffff"}
 
 ![](Orientaciones_para_el_laboratorio_html_9d68952e0b7948d1.png){width="100%"}\
 ![](Orientaciones_para_el_laboratorio_html_771611079e88ba38.gif)
@@ -175,6 +156,5 @@ style="float: left; width: 8.18cm; height: 6.98cm; border: none; padding: 0cm; b
 ![](Orientaciones_para_el_laboratorio_html_32fd1ce45ee49959.gif) *Figura
 8: Configurador del PLC*
 
-\
-\
+
 
