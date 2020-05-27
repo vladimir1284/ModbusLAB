@@ -1,0 +1,8 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+<file alias="light_green.gif">light_green.gif</file>
+<file alias="light_green_off.gif">light_green_off.gif</file>
+<file alias="light_red.gif">light_red.gif</file>
+<file>light_red_off.gif</file>
+</qresource>
+</RCC>

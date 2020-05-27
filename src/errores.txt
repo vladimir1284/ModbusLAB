@@ -1,0 +1,2 @@
+- si los mensajes no se actualizan se envia el anterior
+- ff00 para encender
