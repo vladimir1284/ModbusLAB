@@ -1,0 +1,338 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.0.7.3 (Linux)"/>
+	<meta name="author" content="Vladímir Diez"/>
+	<meta name="created" content="2012-04-02T09:39:09"/>
+	<meta name="changedby" content="Vladímir Diez"/>
+	<meta name="changed" content="2012-11-16T16:07:35"/>
+	<style type="text/css">
+		@page { size: 21cm 29.7cm; margin: 2cm }
+		p { margin-bottom: 0.21cm }
+		td p { margin-bottom: 0cm }
+		h1 { margin-bottom: 0.21cm }
+		h1.western { font-family: "Liberation Sans", sans-serif; font-size: 16pt }
+		h1.cjk { font-family: "Droid Sans Fallback"; font-size: 16pt }
+		h1.ctl { font-family: "Lohit Hindi"; font-size: 16pt }
+		h2 { margin-top: 0.42cm }
+		h2.western { font-family: "Liberation Sans", sans-serif; font-size: 14pt; font-style: italic }
+		h2.cjk { font-family: "Droid Sans Fallback"; font-size: 14pt; font-style: italic }
+		h2.ctl { font-family: "Lohit Hindi"; font-size: 14pt; font-style: italic }
+		a:link { so-language: zxx }
+	</style>
+</head>
+<body lang="es-ES" dir="ltr">
+<h1 class="western">Orientaciones para el laboratorio de Modbus</h1>
+<p style="margin-bottom: 0cm">El mapeo de memoria del PLC
+Master-k120s se puede encontrar en la página 8-59 del documento
+<a href="http://univirt.em.reduc.edu.cu/mod/resource/view.php?id=690">Master-k-Comm.pdf</a>
+y para el analizador de redes en la página 7 del documento
+<a href="http://univirt.em.reduc.edu.cu/mod/resource/view.php?id=691">WM14BXCPv2r0ENG0804.pdf</a>.</p>
+<h2 class="western">Tareas:</h2>
+<p style="margin-bottom: 0cm">Se pide una variante por estudiante que
+debe verse en el documento <a href="http://univirt.em.reduc.edu.cu/mod/resource/view.php?id=692">Variantes.pdf</a>.
+Usted deberá ejecutar las siguientes acciones:</p>
+<p style="margin-bottom: 0cm"><b>PLC</b></p>
+<ul>
+	<li/>
+<p style="margin-bottom: 0cm; font-weight: normal">Escribir 1
+	en un bit (Encender/Apagar )*.</p>
+	<li/>
+<p style="margin-bottom: 0cm; font-weight: normal">Leer un bit
+	(Encender/Apagar ).</p>
+	<li/>
+<p style="margin-bottom: 0cm; font-weight: normal">Escribir 0
+	en un bit (Encender/Apagar ).</p>
+	<li/>
+<p style="margin-bottom: 0cm; font-weight: normal">Leer un bit
+	(Encender/Apagar ).</p>
+	<li/>
+<p style="margin-bottom: 0cm; font-weight: normal">Leer varias
+	entradas en una sola lectura (Leer Entradas ).</p>
+	<li/>
+<p style="margin-bottom: 0cm; font-weight: normal">Escribir el
+	valor 5555hex a partir de la dirección dada (Dirección Base ).</p>
+	<li/>
+<p style="margin-bottom: 0cm; font-weight: normal">Leer un
+	registro de salida en la dirección P00.</p>
+</ul>
+<p style="margin-bottom: 0cm"><b>Analizador</b></p>
+<ul>
+	<li/>
+<p style="margin-bottom: 0cm; font-weight: normal">Leer en
+	lecturas individuales las magnitudes dadas (Lecturas individuales ).</p>
+	<li/>
+<p style="margin-bottom: 0cm; font-weight: normal">Leer 4
+	registros a partir de la dirección dada (Dirección Base ).</p>
+</ul>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal">* Entre paréntesis
+se muestra la columna que contiene la información para su variante.</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><img src="Orientaciones_para_el_laboratorio_html_6bd9e23fbd7fba31.gif" align="left"/>
+El
+estudiante debe traer al laboratorio elaborado los mensajes que va a
+enviar, por ejemplo:</p>
+<div align="right">
+	<table width="642" cellpadding="4" cellspacing="0">
+		<col width="199">
+		<col width="100">
+		<col width="100">
+		<col width="100">
+		<col width="99">
+		<tr valign="top">
+			<td width="199" bgcolor="#cccccc" style="background: #cccccc" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+				<p align="center"><font color="#000000">Acción</font></p>
+			</td>
+			<td colspan="4" width="425" bgcolor="#cccccc" style="background: #cccccc" style="border: 1px solid #000000; padding: 0.1cm">
+				<p align="center"><font color="#000000">Mensaje</font></p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td rowspan="2" width="199" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+				<p>Activar la salida P4C</p>
+			</td>
+			<td width="100" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+				<p align="center">Esclavo</p>
+			</td>
+			<td width="100" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+				<p align="center">Función</p>
+			</td>
+			<td width="100" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+				<p align="center">Dirección</p>
+			</td>
+			<td width="99" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+				<p align="center">Dato/Cantidad</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td width="100" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+				<p align="center">2</p>
+			</td>
+			<td width="100" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+				<p align="center">05</p>
+			</td>
+			<td width="100" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+				<p align="center"><img src="Orientaciones_para_el_laboratorio_html_ce21b96b0a33de96.gif" align="left"/>
+<img src="Orientaciones_para_el_laboratorio_html_b5bb3f65dc684dbb.gif" align="left"/>
+<img src="Orientaciones_para_el_laboratorio_html_6e940c1d15b06656.gif" align="left"/>
+<img src="Orientaciones_para_el_laboratorio_html_f609de33f8ba1d56.gif" align="left"/>
+04C0</p>
+			</td>
+			<td width="99" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+				<p align="center"><img src="Orientaciones_para_el_laboratorio_html_3f6bb5ef55ade789.gif" align="left"/>
+FF00</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td width="199" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+				<p>Leer la energía del analizador</p>
+			</td>
+			<td width="100" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+				<p align="center">1</p>
+			</td>
+			<td width="100" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+				<p align="center">04</p>
+			</td>
+			<td width="100" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm">
+				<p align="center">02C6 
+				</p>
+			</td>
+			<td width="99" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm">
+				<p align="center">1</p>
+			</td>
+		</tr>
+	</table>
+</div>
+<p style="margin-bottom: 0cm; font-weight: normal"><img src="Orientaciones_para_el_laboratorio_html_5374345953771fa1.gif" align="left">
+  <br clear="left"/>
+</img>
+<img src="Orientaciones_para_el_laboratorio_html_88c38101278ccd41.gif" align="left"/>
+<img src="Orientaciones_para_el_laboratorio_html_c6cd4e2f4dd89535.gif" align="left"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal">El software
+ModbusLab se presenta como puede verse en la figura 1.</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><span id="Marco7" dir="ltr" style="float: left; width: 14.11cm; height: 10.56cm; border: none; padding: 0cm; background: #ffffff">
+	<p style="margin-top: 0.21cm"><img src="Orientaciones_para_el_laboratorio_html_a3c36e142383942f.png" name="gráficos7" align="left" width="100%">
+  <br clear="left"/>
+</img>
+<font size="2" style="font-size: 9pt"><i>Figura
+	1: Ventana principal de Modbuslab.</i></font></p>
+</span><br clear="left"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal">En la figura 2 se
+muestra el área para la configuración del puerto serie. En esto es
+suficiente con dejar los valores predeterminados puesto que así han
+sido configurados todos los nodos de la red.</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><span id="Marco1" dir="ltr" style="float: left; width: 5.54cm; height: 3.82cm; border: none; padding: 0cm; background: #ffffff">
+	<p style="margin-top: 0.21cm"><img src="Orientaciones_para_el_laboratorio_html_c62b4826ed44c77b.png" name="gráficos1" align="left" width="100%">
+  <br clear="left"/>
+</img>
+<font size="2" style="font-size: 9pt"><i>Figura
+	2: Configurador del puerto serie.</i></font></p>
+</span><br clear="left">El editor de mensajes se puede ver en la
+figura 3. El primer campo hacer referencia a la dirección del
+esclavo con el que se establecerá la conexión (Estación). El
+segundo campo determina la función del mensaje (véase en detalle en
+la figura 3) y determina los campoes que estarán activos e
+inactivos. Es importante notar que todas la entradas numéricas son
+de valores hexadecimales, el valor decimal será siempre accesible en
+un tip como puede verse en la figura 5.</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><span id="Marco2" dir="ltr" style="float: left; width: 16.18cm; height: 3.11cm; border: none; padding: 0cm; background: #ffffff">
+	<p style="margin-top: 0.21cm"><img src="Orientaciones_para_el_laboratorio_html_ec145c343e62aaf5.png" name="gráficos2" align="left" width="100%">
+  <br clear="left"/>
+</img>
+<img src="Orientaciones_para_el_laboratorio_html_8f734337a1fa50e9.gif" align="left"/>
+<img src="Orientaciones_para_el_laboratorio_html_c98016e6399cd823.gif" align="left"/>
+<font size="2" style="font-size: 9pt"><i>Figura
+	3: Editor de mensajes.</i></font></p>
+</span>
+<img src="Orientaciones_para_el_laboratorio_html_489c99d7597aa168.gif" align="left"/>
+
+<img src="Orientaciones_para_el_laboratorio_html_39c9dbc14414711a.gif" align="left"/>
+
+<img src="Orientaciones_para_el_laboratorio_html_de9d50cb7cc3a811.gif" align="left"/>
+
+<img src="Orientaciones_para_el_laboratorio_html_63c2ae7e09b05987.gif" align="left"/>
+
+<span id="Marco3" dir="ltr" style="float: left; width: 6.07cm; height: 5.09cm; border: none; padding: 0cm; background: #ffffff">
+	<p style="margin-top: 0.21cm"><img src="Orientaciones_para_el_laboratorio_html_80eb937eeb844580.png" name="gráficos3" align="left" width="100%">
+  <br clear="left"/>
+</img>
+<font size="2" style="font-size: 9pt"><i>Figura
+	4: Selector de la función modbus.</i></font></p>
+</span><br clear="left">
+<span id="Marco4" dir="ltr" style="float: left; width: 5.04cm; height: 2.87cm; border: none; padding: 0cm; background: #ffffff">
+	<p style="margin-top: 0.21cm"><img src="Orientaciones_para_el_laboratorio_html_df9e71cd759a2202.png" name="gráficos4" align="left" width="100%">
+  <br clear="left"/>
+</img>
+<font size="2" style="font-size: 9pt"><i>Figura
+	5: Entrada numérica.</i></font></p>
+</span>El monitor del analizador de redes nos permite conocer todo el
+tiempo los valores medidos por el equipo como se muestra en la figura
+6. La escala de los instrumentos de aguja se puede modificar a través
+de una entrada numérica como indica la figura 6.</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><span id="Marco6" dir="ltr" style="float: left; width: 14.37cm; height: 3.77cm; border: none; padding: 0cm; background: #ffffff">
+	<p style="margin-top: 0.21cm"><img src="Orientaciones_para_el_laboratorio_html_85c7876e0ada5899.png" name="gráficos6" align="left" width="100%">
+  <br clear="left"/>
+</img>
+<img src="Orientaciones_para_el_laboratorio_html_94003d29ac9cc80f.gif" align="left"/>
+<img src="Orientaciones_para_el_laboratorio_html_27c66f567b34645e.gif" align="left"/>
+<img src="Orientaciones_para_el_laboratorio_html_c105441136e6f938.gif" align="left"/>
+<img src="Orientaciones_para_el_laboratorio_html_659c137372fad3bf.gif" align="left"/>
+<font size="2" style="font-size: 9pt"><i>Figura
+	6: Monitor del analizador de redes.</i></font></p>
+</span><br clear="left">
+<img src="Orientaciones_para_el_laboratorio_html_42d46b23f69ffded.gif" align="left"/>
+
+<img src="Orientaciones_para_el_laboratorio_html_cb4c599fca6d62d8.gif" align="left"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal">En el menú
+herramientas podemos encontrar la utilidad para configuración del
+PLC como se en la figura 8. Esta interfaz nos permite definir el
+número de entradas y salidas así como la dirección base de las
+mismas en la memoria del PLC. En este caso la base numérica puedes
+ser  decimal o hexadecimal según sea más conveniente. Esta
+configuración hace flexible al programa para interactuar con
+cualquier autómata. Se puede escoger el color para la visualización
+de los leds como se muestra en la figura 8.</p>
+<p style="margin-bottom: 0cm; font-weight: normal">Una vez terminado
+el laboratorio el software permite generar un informe con el menú
+que se muestra en la figura 7.</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><span id="Marco8" dir="ltr" style="float: left; width: 5.36cm; height: 3.47cm; border: none; padding: 0cm; background: #ffffff">
+	<p style="margin-top: 0.21cm"><img src="Orientaciones_para_el_laboratorio_html_854912dafacce3ba.png" name="gráficos8" align="left" width="100%">
+  <br clear="left"/>
+</img>
+<font size="2" style="font-size: 9pt"><i>Figura
+	7: Menú para generar informe.</i></font></p>
+</span><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-weight: normal"><span id="Marco5" dir="ltr" style="float: left; width: 8.18cm; height: 6.98cm; border: none; padding: 0cm; background: #ffffff">
+	<p style="margin-top: 0.21cm"><img src="Orientaciones_para_el_laboratorio_html_9d68952e0b7948d1.png" name="gráficos5" align="left" width="100%">
+  <br clear="left"/>
+</img>
+<img src="Orientaciones_para_el_laboratorio_html_771611079e88ba38.gif" align="left"/>
+<img src="Orientaciones_para_el_laboratorio_html_1adb9d396ade56c1.gif" align="left"/>
+<img src="Orientaciones_para_el_laboratorio_html_32fd1ce45ee49959.gif" align="left"/>
+<font size="2" style="font-size: 9pt"><i>Figura
+	8: Configurador del PLC</i></font></p>
+</span><br clear="left"><br/>
+
+</p>
+</body>
+</html>
